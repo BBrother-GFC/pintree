@@ -2,5 +2,6 @@ version: "1"
 rules:
   - base: gh-pages
     upstream: Pintree-io:gh-pages
-    mergeMethod: merge
-    mergeUnstable: false
+    mergeMethod: hardreset
+    mergeUnstable: true
+    
